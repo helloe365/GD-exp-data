@@ -1,0 +1,31 @@
+bottle_red_stanford_norm & 19.5 & 14.5 & 10.0 & 33.8 & 38.5 & 42.8 \\
+bowl_white_small_norm & 14.2 & 11.9 & 5.2 & 25.4 & 34.0 & 56.3 \\
+camera_canon_len_norm & 5.9 & 1.5 & 2.3 & 13.9 & 16.0 & 49.5 \\
+camera_canon_wo_len_norm & 65.7 & 36.6 & 76.9 & 83.7 & 89.3 & 58.7 \\
+camera_shengjun_norm & 42.1 & 24.9 & 45.4 & 56.1 & 0.4 & 49.7 \\
+can_green_norm & 28.4 & 6.6 & 38.2 & 40.4 & 27.3 & 45.6 \\
+can_lotte_milk_norm & 53.6 & 28.1 & 61.6 & 71.1 & 76.4 & 61.1 \\
+laptop_air_xin_norm & 36.8 & 36.1 & 49.6 & 24.6 & 24.1 & 87.3 \\
+laptop_alienware_norm & 50.0 & 54.9 & 63.1 & 31.9 & 44.9 & 86.9 \\
+laptop_mac_pro_norm & 31.0 & 21.5 & 44.7 & 26.9 & 12.8 & 90.0 \\
+mug_anastasia_norm & 6.8 & 2.4 & 7.0 & 10.9 & 0.0 & 46.8 \\
+mug_brown_starbucks_norm & 16.0 & 15.0 & 11.5 & 21.6 & 0.5 & 60.5 \\
+mug_daniel_norm & 52.7 & 30.1 & 53.8 & 74.1 & 6.9 & 78.4 \\
+Ours & 34.1 & 25.3 & 38.5 & 38.6 & 22.8 & 67.9 \\ 
+
+
+======================== Performance Summary ========================
+text_prompt_total       : 2000
+visual_encode_total     : 28.3339s
+prompt_encode_total     : 44.0209s
+decode_total            : 7.4727s
+loss_total              : 24.0049s
+corr_total              : 8.0885s
+pose_total              : 27.4903s
+step_total (wall-clock) : 219.3885s
+overhead                : 79.9774s
+mean_total              : 0.1097s
+mean_encode             : 0.0362s
+VRAM_peak_max           : 10601.3 MB
+mean_memory_allocated   : 2729.8 MB
+=====================================================================

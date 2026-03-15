@@ -1,0 +1,14 @@
+Result JSON pairs              : 2000
+Instance list pairs            : 2000
+Mask JSON single-image entries : 2303
+Final matched pairs            : 2000
+
+Correlation summary
+        Analysis   Pearson  Spearman
+ AR vs mIoU_pair  0.234172  0.260727
+AR vs distance_m -0.374807 -0.354368
+
+Outlier statistics (high IoU, low AR)
+mIoU_pair >= 0.7 and AR < 0.2 : 395
+mIoU_pair >= 0.7 and AR < 0.3 : 492
+mIoU_pair >= 0.7 and AR < 0.4 : 606
