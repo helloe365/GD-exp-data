@@ -1,0 +1,122 @@
+{
+  "1": [
+    "small screw plug fuse",
+    "short cylindrical fuse plug with a knurled top and external threading"
+  ],
+  "2": [
+    "medium screw plug fuse",
+    "medium-height cylindrical fuse plug with a knurled top and threaded base"
+  ],
+  "3": [
+    "compact screw plug fuse",
+    "short cylindrical fuse plug with a wide flat circular top"
+  ],
+  "4": [
+    "marked screw plug fuse",
+    "cylindrical fuse plug with a top marking and threaded base"
+  ],
+  "5": [
+    "single-socket fuse base",
+    "rectangular electrical base with one central circular socket"
+  ],
+  "6": [
+    "single-socket fuse base variant",
+    "rectangular base with one central socket and side indentations"
+  ],
+  "7": [
+    "triple inline fuse base",
+    "rectangular base with three circular sockets arranged in a straight line"
+  ],
+  "8": [
+    "quad fuse base",
+    "rectangular base with four circular sockets arranged in a 2 by 2 grid"
+  ],
+  "9": [
+    "flat triple inline fuse base",
+    "elongated flat base with three inline circular sockets"
+  ],
+  "10": [
+    "small fuse base terminal",
+    "compact base with a central socket and side mounting rails"
+  ],
+  "11": [
+    "small circular base with tabs",
+    "small circular socket base with two opposite mounting tabs"
+  ],
+  "12": [
+    "flanged circular base",
+    "cylindrical socket with a wide flange and mounting holes"
+  ],
+  "13": [
+    "small threaded adapter ring",
+    "short hollow cylinder with internal threading"
+  ],
+  "14": [
+    "medium threaded adapter ring",
+    "medium-height hollow cylinder with internal threading and top rim"
+  ],
+  "15": [
+    "stepped threaded adapter ring",
+    "hollow cylindrical ring with a stepped outer profile and internal threading"
+  ],
+  "16": [
+    "wide threaded adapter ring",
+    "wide hollow cylindrical ring with internal threading"
+  ],
+  "17": [
+    "large circular mounting base",
+    "wide cylindrical base with a raised inner circular ring"
+  ],
+  "18": [
+    "large dome-shaped socket base",
+    "large cylindrical housing with a domed top and internal cavity"
+  ],
+  "19": [
+    "triple-hole electrical socket",
+    "rectangular socket with three small circular pin holes"
+  ],
+  "20": [
+    "quad-hole electrical socket",
+    "rectangular socket with four evenly spaced pin holes"
+  ],
+  "21": [
+    "triangular electrical socket base",
+    "small connector base with a triangular or T-shaped profile"
+  ],
+  "22": [
+    "angled electrical socket base",
+    "irregular socket base with angled surfaces and asymmetric shape"
+  ],
+  "23": [
+    "dual cylindrical socket adapter",
+    "adapter with two connected cylindrical socket components"
+  ],
+  "24": [
+    "cylindrical electrical plug",
+    "compact cylindrical plug with a rounded top and solid body"
+  ],
+  "25": [
+    "dual rocker switch box",
+    "rectangular switch housing with two flat rocker buttons"
+  ],
+  "26": [
+    "single rocker switch box",
+    "rectangular switch housing with one flat rocker button"
+  ],
+  "27": [
+    "square closed junction box",
+    "square enclosure with a flat lid and four corner screws"
+  ],
+  "28": [
+    "junction box with cable glands",
+    "square enclosure with side cable entry ports"
+  ],
+  "29": [
+    "large rectangular junction box",
+    "large rectangular enclosure with a flat removable lid"
+  ],
+  "30": [
+    "circular dome junction box",
+    "round enclosure with a domed protective cover"
+  ]
+}

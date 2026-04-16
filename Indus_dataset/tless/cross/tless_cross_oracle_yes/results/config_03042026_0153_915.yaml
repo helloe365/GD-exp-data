@@ -1,0 +1,91 @@
+exp_name: my_Graduation_Env_final
+exp_root: exp_data
+exp_tag: Ours
+use_seed: false
+seed: 1
+device: cuda
+corrs_device: cuda
+compute_vsd: true
+viz_valid: false
+debug_valid: false
+profiler: false
+resume_ckpt: none
+dataset:
+  root: data
+  batch_size: 1
+  img_size:
+  - 224
+  - 224
+  max_corrs: 500
+  train:
+    name: shapenet6d
+    split: custom_train
+    obj: all
+  test:
+    name: tless
+    split: cross_scene_test
+    obj: all
+model:
+  use_catseg_ckpt: true
+  image_encoder:
+    img_size:
+    - 192
+    - 192
+    out_channels: 32
+    extra_upsampling: true
+    vlm: clip
+    use_decoder_guidance: true
+    use_cost_guidance: true
+    decoder_type: standard
+loss:
+  hard_negatives: true
+  pos_margin: 0.2
+  neg_margin: 0.9
+  neg_kernel_size: 5
+  mask_type: dice
+  w:
+    mask: 1.0
+    pos: 0.5
+    neg: 0.5
+test:
+  mask: oracle
+  add_description: 'yes'
+  src_sampling: 5000
+  solver: pointdsc
+  n_corrs: ${dataset.max_corrs}
+  dist_th: 0.25
+  mask_threshold: 0.5
+  only_save_masks: false
+  only_save_featmaps: false
+  pred_only_visualization: false
+  shared_features: false
+  prompts_per_group: 1
+optimization:
+  optim_type: Adam
+  scheduler_type: cosine
+  lr: 0.001
+  momentum: 0.0
+  w_decay: 0.0005
+  gamma: 0.1
+training:
+  n_epochs: 20
+  freq_save: 5
+  freq_valid: 5
+augs:
+  rgb:
+    jitter: true
+    bright: true
+    hflip: true
+    vflip: true
+  text:
+    synset: true
+pretrained:
+  pointdsc: pretrained_models/pointdsc
+  vocabulary: pretrained_models/bpe_simple_vocab_16e6.txt.gz
+eval:
+  ckpt: exp_data/best_model/models/epoch=0019.ckpt
+  results: null
+tmp:
+  logs_out: exp_data/best_model/runs
+  ckpt_out: exp_data/best_model/models
+  results_out: exp_data/best_model/results
