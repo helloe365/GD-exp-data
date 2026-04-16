@@ -1,0 +1,17 @@
+# Ignore common compressed archive formats
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzma
